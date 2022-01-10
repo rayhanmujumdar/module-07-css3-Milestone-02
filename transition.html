@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>transtion</title>
+    <style>
+        .box{
+            width: 200px;
+            height: 200px;
+            border: 1px solid black;
+            background-color: brown;
+            transition:width 0.5s ease 0.5s,height 0.5s ease 0.5s,transform 1s;
+            overflow: hidden;
+        }
+        .box:hover{
+            width: 400px;
+            height: 400px;
+            background-color: red;
+            color: wheat;
+            /* transition: width 2s, height 3s; */
+            /* transition: linear 1s; */
+            transform: rotate(360deg) scale(1);
+        }
+    </style>
+</head>
+<body>
+    <div class="box">
+        <h3>transtion</h3>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Illum at necessitatibus doloremque, tempora asperiores delectus quibusdam. Necessitatibus officia veritatis at nisi hic incidunt sit laborum doloribus architecto, voluptatum, amet dicta. lore</p>
+    </div>
+    <div class="box">
+        <h3>transtion</h3>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Illum at necessitatibus doloremque, tempora asperiores delectus quibusdam. Necessitatibus officia veritatis at nisi hic incidunt sit laborum doloribus architecto, voluptatum, amet dicta. lore</p>
+    </div>
+    <div class="box">
+        <h3>transtion</h3>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Illum at necessitatibus doloremque, tempora asperiores delectus quibusdam. Necessitatibus officia veritatis at nisi hic incidunt sit laborum doloribus architecto, voluptatum, amet dicta. lore</p>
+    </div>
+</body>
+</html>
